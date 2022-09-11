@@ -1,0 +1,27 @@
+{
+  "name": "test-project",
+  "version": "1.0.0",
+  "description": "javascript app",
+  "main": "src/index.js",
+  "scripts": {
+    "serve": "parcel ./src/index.html -p 4000 --open",
+    "build": "parcel build ./src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaxOvs19/Test-project.git"
+  },
+  "keywords": [
+    "js",
+    "0000"
+  ],
+  "author": "Max Ovsanikov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaxOvs19/Test-project/issues"
+  },
+  "homepage": "https://github.com/MaxOvs19/Test-project#readme",
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  }
+}
